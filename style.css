@@ -1,0 +1,247 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  font-family: 'Tenor_Sans', serif, monospace;
+  font-weight: 400;
+  background-color: #F3EFEA;
+}
+
+.nav_header{
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'OpenSans', serif, monospace;
+  text-decoration: none;
+  color:black;
+}
+
+.logo{
+  align-items: center;
+  margin-top: 36px;
+  margin-bottom: 21px;
+}
+
+.workshop {
+  margin-bottom:160px;
+  width:1440px;
+  height: 639px;
+  background-image: url(assets/pictures/Main_picture.png);
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+}
+
+.text {
+  font-family: 'Tenor_Sans', serif, monospace;
+  font-weight: 400;
+  color: #F6F6F6;
+}
+
+.text_1_string {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.text_2_sting {
+  margin-bottom:25px;
+  font-size: 48px;
+  line-height: 72px;
+}
+
+.text_3_string {
+  margin-bottom: 90px;
+}
+
+.btn_make_order {
+  width: 328px;
+  height: 60px;
+  background-color: #F6F6F6;
+  font-size: 16px;
+  line-height: 24px;;
+  color: #715B4B;
+  font-family: 'OpenSans', serif, monospace;
+}
+
+.advantages{
+  display: flex;
+}
+.adv_main_header {
+  margin-left: 134px;
+  margin-right: 773px;
+  margin-bottom: 100px;
+  width: 533px;
+  height: 72px;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 72px;
+  color: #57463A;
+}
+
+.adv_column {
+  margin-left: 142px;
+  margin-bottom: 78px;
+  width: 319px;
+  display: flex;
+  flex-direction: column;
+}
+
+.adv_line_2 {
+  margin-left: 142px;
+  margin-bottom: 78px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.adv_header{
+margin-bottom: 10px;
+}
+
+.adv_1_description {
+  width: 194px;
+  height: 48px;
+}
+
+.adv_2_description {
+  width: 218px;
+  height: 48px;
+}
+.adv_3_description {
+  width: 273px;
+  height: 48px;
+}
+
+.adv_4_description {
+  width: 250px;
+  height: 48px;
+}
+
+.adv_5_description {
+  margin-right: 82px;
+  width: 318px;
+  height: 48px;
+}
+
+.adv_6_description {
+  width: 280px;
+  height: 48px;
+}
+
+.portfolio_header{
+  margin-left: 134px;
+  font-family: 'Tenor_Sans', serif, monospace;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 72px;
+  color: #57463A;
+}
+
+.exampls_of_work {
+  margin-left: 311px;
+  margin-right: 311px;
+  margin-bottom: 160px;
+  width: 818px;
+  height: 694.17px;
+}
+
+.main_photo {
+  width: 818px;
+  height: 694.17px;
+}
+
+.additional_photos {
+  display: flex;
+  justify-content: space-between;
+}
+
+.photo_in_row {
+  width: 103px;
+  height: 102px;
+}
+
+table {
+  margin-left: 142px;
+  margin-right: 140px;
+  width: 1158px;
+  height: 267px;
+}
+
+.production_steps_header {
+  width: 496px;
+  height: 72px;
+  margin-left: 134px;
+  margin-right: 810px;
+  margin-bottom: 100px;
+  font-family: 'Tenor_Sans', serif, monospace;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 72px;
+  color: #57463A;
+}
+
+.application {
+  margin-top: 130px;
+  margin-left: 142px;
+  margin-right: 353px;
+}
+
+.application_header {
+  margin-bottom: 100px;
+  font-family: 'Tenor_Sans', serif, monospace;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 72px;
+  color: #57463A;
+}
+
+.btn_application {
+  width: 245px;
+  height: 60px;
+  margin-left: 598px;
+  margin-right: 597px;
+  margin-bottom: 181px;
+  padding: 18px 51px 18px;
+  display: flex;
+  justify-content: center;
+  background-color: #A1B29F;
+  color: #F6F6F6;
+  font-family: 'OpenSans', serif, monospace;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+footer {
+  width: 1440px;
+  height: 380px;
+  background-color: #715B4B;
+}
+
+.aside_left {
+  margin-top: 84px;
+  margin-left: 140px;
+  margin-right: 52px;
+  width: 248px;
+  height: 48px;
+}
+.nav_footer {
+  text-decoration: none;
+  color:black;
+}
+.footer_navigation {
+  display: flex;
+  flex-direction: column;
+}
+.footer_1_column {
+  display: flex;
+  justify-content: space-around;
+}
+.footer_2_column {
+  display: flex;
+  justify-content: space-around;
+}
